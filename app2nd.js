@@ -43,5 +43,12 @@ $(function () {
     $('.box9').removeClass('box9-ext');
   });
 
+  $('.box0').on('click', function() {
+    $(this).slideUp();
+  })
+
+  $('button').on('click', function() {
+    $('ul').children().css('color', 'red');
+  });
 
 });

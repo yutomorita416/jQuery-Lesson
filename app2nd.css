@@ -1,3 +1,22 @@
+.box0 {
+  background-color: #ffffff;
+  height: 100px;
+  width: 100px;
+  float: right;
+}
+.bg1 {
+  background-color: #ffdddd;
+}
+.bg2 {
+  background-color: #ffcccc;
+}
+.bg3 {
+  background-color: #ffbbbb;
+}
+.bg4 {
+  background-color: #ffaaaa;
+}
+
 .box1 {
   background-color: #ff0000;
   height: 100px;
