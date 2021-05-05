@@ -1,33 +1,47 @@
 $(function () {
+
   $('.box1').css({
     'background-color': '#0000ff',
     'height': '100px'
   });
-});
 
-$(function () {
-  $('.box2').slideDown(500);
-});
+  $('.box2').slideDown(1000);
 
-$(function () {
-  $('.box3').slideUp(1000);
-});
+  $('.box3').slideUp(2000);
 
-$(function () {
-  $('.box4').show(500);
+  $('.box4').show(1000);
   $('.box4').css({'background-color': '#ffee00'});
-});
 
-$(function () {
-  $('.box5').hide(1000);
-});
+  $('.box5').hide(2000);
 
-$(function () {
   $('.box6').slideDown(2000, function() {
     $('.box6').css({
       'background-color': '#0000ff',
-      'width': '200px',
+      'width': '100px',
       'height': '100px'
-    }).slideUp(2000);
+    }).slideUp(1000);
   });
+
+  $('.box7').mouseover(function() {
+    $('.box7').css({'background-color': '#00eeff'});
+  });
+  $('.box7').mouseout(function() {
+    $('.box7').css({'background-color': '#ffa500'});
+  });
+
+  $('.box8').mouseover(function() {
+    $('.box8').addClass('box8-ext');
+  });
+  $('.box8').mouseout(function() {
+    $('.box8').removeClass('box8-ext');
+  });
+
+  $('.box9').on('click', function() {
+    $('.box9').addClass('box9-ext');
+  });
+  $('.box9').mouseout(function() {
+    $('.box9').removeClass('box9-ext');
+  });
+
+
 });

@@ -1,38 +1,65 @@
 .box1 {
   background-color: #ff0000;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 
 .box2 {
   display: none;
   background-color: #ff0000;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 
 .box3 {
   background-color: #00ff00;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 
 .box4 {
   display: none;
   background-color: #ff0000;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 
 .box5 {
   background-color: #00eeff;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 
 .box6 {
   display: none;
   background-color: #ff0000;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+}
+
+.box7 {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+}
+
+.box8 {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+
+}
+
+.box8-ext {
+  border: 10px solid black;
+}
+
+.box9 {
+  background-color: purple;
+  height: 100px;
+  width: 100px;
+}
+
+.box9-ext {
+  border: 10px solid pink;
 }
